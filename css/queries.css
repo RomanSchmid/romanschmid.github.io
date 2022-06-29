@@ -1,0 +1,69 @@
+@media only screen and (max-width: 790px) {
+
+    /***** INTRO *****/
+    .intro-content {
+        margin-top: 60px;
+    }
+
+    .intro .col.span-1-of-2 {
+       width: 99%;
+       margin: 0;
+       padding: 0;
+    }
+
+    .intro-text p {
+        width: 99%;
+        padding: 15px; 
+    }
+
+    .intro-image img {
+        width: 99%;
+        margin-top: 50px;
+        padding: 15px;
+    }
+
+    /***** ABOUT *****/
+    .about {
+        margin-top: 120px;
+    }
+
+    .about img {
+        display: none;
+    }
+
+    .about-text {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 725px) {
+
+    /*** Navigation bar appearance on a small screen ***/
+
+    .hamburger {
+        display: flex;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav ul li {
+        padding: 7px;
+    }
+    
+    /* Remove <li> underline */
+    nav ul li a:hover,
+    nav ul li a:active {
+        border-bottom: 2px solid transparent;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+    
+    .tagline {
+        font-size: 0.9rem;
+    }
+}
